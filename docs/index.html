@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quicklist Recipe</title>
+  <style>
+    :root {
+      --text: #2d3748;
+      --muted: #718096;
+      --gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #fafafa;
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      text-align: center;
+    }
+    .icon {
+      width: 96px;
+      height: 96px;
+      border-radius: 22px;
+      margin-bottom: 1.25rem;
+      box-shadow: 0 8px 24px rgba(102, 126, 234, 0.35);
+    }
+    h1 { font-size: 1.75rem; margin-bottom: 0.5rem; }
+    p { color: var(--muted); max-width: 420px; line-height: 1.6; margin-bottom: 1.5rem; }
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background: var(--gradient);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+    .links a { color: #667eea; margin: 0 0.75rem; font-size: 0.95rem; }
+  </style>
+</head>
+<body>
+  <img class="icon" src="icon128.png" width="96" height="96" alt="" />
+  <h1>Quicklist Recipe</h1>
+  <p>Turn any recipe page into a categorized shopping list — check items off, copy, export, and switch to metric units.</p>
+  <!-- Replace with your Chrome Web Store URL after publishing -->
+  <a class="btn" href="https://chromewebstore.google.com/detail/REPLACE_WITH_EXTENSION_ID">Add to Chrome</a>
+  <div class="links">
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="https://github.com/JamieKoz/quicklist-recipe">GitHub</a>
+  </div>
+</body>
+</html>

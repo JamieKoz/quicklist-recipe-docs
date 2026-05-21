@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — Quicklist Recipe</title>
+  <style>
+    :root {
+      --text: #2d3748;
+      --muted: #718096;
+      --accent: #667eea;
+      --bg: #fafafa;
+      --card: #fff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      padding: 2rem 1rem 4rem;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; }
+    h1 { font-size: 1.75rem; margin-bottom: 0.25rem; }
+    .updated { color: var(--muted); font-size: 0.9rem; margin-bottom: 2rem; }
+    h2 { font-size: 1.15rem; margin: 1.75rem 0 0.5rem; color: var(--accent); }
+    p, li { margin-bottom: 0.75rem; }
+    ul { padding-left: 1.25rem; }
+    a { color: var(--accent); }
+    .card {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 1.5rem 1.75rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    }
+    footer { margin-top: 2rem; font-size: 0.85rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Privacy Policy</h1>
+    <p class="updated">Quicklist Recipe · Last updated: May 17, 2026</p>
+
+    <div class="card">
+      <p>
+        Quicklist Recipe (“the extension”) helps you turn recipe web pages into a shopping list.
+        This policy explains what data the extension handles and how it is used.
+      </p>
+
+      <h2>Summary</h2>
+      <ul>
+        <li>Data stays on your device unless you choose to copy or export it.</li>
+        <li>We do not sell your data.</li>
+        <li>The extension only reads the active tab when you open it.</li>
+      </ul>
+
+      <h2>Data the extension accesses</h2>
+      <p>When you click the extension icon on a recipe page, it may read:</p>
+      <ul>
+        <li>Recipe title and ingredient text visible on that page</li>
+        <li>The URL of the active tab (to match a cached recipe to the current page)</li>
+      </ul>
+      <p>
+        The extension uses the browser’s <code>activeTab</code>, <code>scripting</code>, and
+        <code>storage</code> permissions. It does not request broad access to all websites in the background.
+      </p>
+
+      <h2>Data stored on your device</h2>
+      <p>Using Chrome’s local storage, the extension may save:</p>
+      <ul>
+        <li>The last extracted recipe for the current page URL</li>
+        <li>Which shopping-list items you have checked off</li>
+        <li>Your metric/imperial display preference</li>
+      </ul>
+      <p>This information is stored locally in your browser profile and is not transmitted to our servers.</p>
+
+      <h2>What we do not collect</h2>
+      <ul>
+        <li>No account or sign-in is required</li>
+        <li>No analytics or advertising SDKs are built into the extension</li>
+        <li>No payment or contact information is collected by the extension</li>
+      </ul>
+
+      <h2>Data you share voluntarily</h2>
+      <p>
+        If you use Copy or Export, you send list content to another app or file using your device’s
+        normal share/clipboard features. That is under your control.
+      </p>
+
+      <h2>Third-party websites</h2>
+      <p>
+        Recipe content comes from sites you visit. Those sites have their own privacy policies.
+        The extension does not change how those sites handle your data.
+      </p>
+
+      <h2>Children</h2>
+      <p>The extension is not directed at children under 13.</p>
+
+      <h2>Changes</h2>
+      <p>
+        We may update this policy. The “Last updated” date above will change when we do.
+        Continued use of the extension after changes means you accept the updated policy.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Questions about this policy? Open an issue on the
+        <a href="https://github.com/JamieKoz/quicklist-recipe">GitHub repository</a>
+        or contact the developer at the email you provide in the Chrome Web Store listing.
+      </p>
+    </div>
+
+    <footer>
+      <p><a href="./">← Quicklist Recipe</a></p>
+    </footer>
+  </div>
+</body>
+</html>
